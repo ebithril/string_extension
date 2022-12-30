@@ -1,4 +1,4 @@
-trait StringExtension {
+pub trait StringExtension {
     fn find_all(&self, in_char: char) -> Vec<usize>;
 }
 
